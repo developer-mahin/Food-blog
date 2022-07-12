@@ -1,0 +1,1161 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+body{
+   background-color: #262626;
+   font-family: 'Open Sans', sans-serif;
+}
+html{
+   scroll-behavior: smooth;
+}
+.container{
+   max-width: 1240px;
+   padding: 0;
+}
+header#home {
+   position: sticky;
+   top: 0;
+   left: 0;
+   z-index: 100;
+}
+nav ul li a {
+   font-size: 33px;
+   color: #efb921 !important;
+   padding: 0px 29px !important;
+}
+
+nav ul li a:hover {
+   background: #efb921;
+   font-weight: 700;
+   color: #333 !important;
+}
+
+nav {
+   margin-top: 70px;
+}
+nav ul {
+   border: 2px solid #efb921;
+}
+.row {
+   margin: 0;
+}
+.logo{
+   padding-top: 40px;
+}
+button#dropdown-mini-menu {
+   border: 2px solid #e1b838 !important;
+   position: absolute;
+   top: 14px;
+   right: 0px;
+}
+
+i.fas.fa-bars {
+   color: white;
+   font-size: 30px;
+}
+section.home {
+   margin-top: 30px;
+}
+
+.owl-dots {
+   position: absolute;
+   right: 47%;
+   bottom: 21px;
+}
+
+button.owl-prev {
+   font-size: 60px !important;
+   color: #e1b838 !important;
+   position: absolute;
+   bottom: 0px;
+   left: 40%;
+}
+
+button.owl-next {
+   font-size: 60px !important;
+   color: #e1b838 !important;
+   position: absolute;
+   bottom: 0px;
+   right: 40%;
+}
+button.owl-next:hover {
+   background: transparent !important;
+}
+
+button.owl-prev:hover {
+   background: transparent !important;
+}
+section.menu-item{
+   width: 100%;
+   background-image:url(../images/background-img.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 50px 0px;
+   padding-top: 45px;
+   padding-bottom: 65px;
+}
+.priceOne {
+   border: 2px solid #e1b838;
+   overflow: hidden;
+}
+
+.priceOne h2 {
+   background: #efb921;
+   font-weight: 800;
+   font-size: 30px;
+   padding: 10px;
+}
+
+h3.foodname {
+   color: white;
+   font-weight: 600;
+   font-size: 22px;
+   width: 282px;
+   display: block;
+   float: left;
+   padding: 0px 10px;
+}
+
+span.food-price {
+   font-size: 22px;
+   font-weight: 600;
+   color: #fff;
+   display: block;
+}
+
+.beeflistWWrapper {
+   margin-top: 3px;
+}
+
+.porklistWWrapper {
+   margin-top: -14px;
+}
+
+.priceTwo {
+   border: 2px solid #efb921;
+   margin-top: 50px;
+}
+
+.priceTwo h2 {
+   background: #efb921;
+   font-weight: 800;
+   font-size: 30px;
+   padding: 10px;
+}
+section.discount{
+   width: 100%;
+   background-image: url(../images/background-img.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.discount-wrapper {
+   text-align: right;
+   margin-top: 90px;
+}
+
+.discount-text h2 {
+   color: #efb921;
+   font-size: 54px;
+   font-weight: 400;
+}
+
+.discount-bottom h2 {
+   color: white;
+}
+
+.discount-text button {
+   background: #efb921;
+   font-family: 'Fjalla One', sans-serif;
+   padding: 5px 30px;
+   font-size: 26px;
+}
+.discount-text h2 span {
+   font-weight: 700;
+}
+
+.discount-bottom {
+   margin-top: 40px;
+}
+
+.discount-bottom h2 {
+   color: #efb921;
+   font-size: 34px;
+   font-weight: 400;
+   font-family: 'Fjalla One';
+}
+.top-description {
+   position: absolute;
+   color: white;
+   top: 80px;
+}
+
+section#specail {
+   position: relative;
+   margin: 60px 0px;
+}
+div#method {
+   margin-top: 150px;
+}
+.specail-heading {
+   border: 2px solid #efb921;
+}
+
+.specail-heading h2 {
+   background: #efb921;
+   color: black;
+   text-transform: uppercase;
+   font-size: 40px;
+   font-weight: 800;
+   text-align: center;
+   padding: 5px 0px;
+}
+.specail-heading h3 {
+   text-align: center;
+   text-transform: capitalize;
+   font-weight: 700;
+   font-size: 40px;
+   padding: 50px 0px;
+}
+
+.specail-ditails p {
+   font-size: 29px;
+}
+.method {
+   margin-top: 170px;
+}
+.beefPlate-fork {
+   position: absolute;
+   bottom: 740px;
+}
+.beefPlate-fork-description {
+   width: 590px;
+   float: right;
+   position: absolute;
+   top: 800px;
+   right: 0px;
+   border: 5px solid #efb921;
+}
+
+.beefPlate-fork-description h2 {
+   font-size: 58px;
+   background: #efb921;
+   text-transform: capitalize;
+   font-weight: 900;
+   padding: 0px 15px;
+}
+
+.beefPlate-fork-description p {
+   color: #fff;
+   font-size: 39px;
+   padding: 5px 20px;
+   line-height: 45px;
+}
+section.jazzMusic {
+   width: 100%;
+   height: auto;
+   background-image: url(../images/background-img.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-top: 40px;
+}
+
+.jazzMusic-details {
+   color: white;
+   top: 50px;
+}
+
+.jazzMusic-heading h1 {
+   text-transform: uppercase;
+   font-size: 58px;
+   background: #efb921;
+   color: #000;
+   font-weight: 900;
+   padding: 10px 0px;
+}
+
+.jazzMusic-heading {
+   text-align: center;
+   border: 5px solid #efb921;
+}
+
+.jazzMusic-heading h2 {
+   font-size: 58px;
+   text-align: center;
+   text-transform: capitalize;
+   font-weight: 700;
+}
+.jazzMusic-heading span {
+    font-size: 58px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.MenuTitle {
+   text-align: center;
+}
+
+.MenuTitle h1 {
+   font-size: 62px;
+   font-family: 'Fjalla One';
+   color: white;
+   display: inline;
+}
+.jazz-music-details p {
+   font-size: 41px;
+}
+.logoTitile {
+   text-align: center;
+   margin-top: 130px;
+}
+
+.logoTitile h2 {
+   color: #efb921;
+   padding: 30px 0px;
+   font-size: 45px;
+   position: relative;
+   font-family: 'Fjalla One';
+}
+
+.logoTitile h2:after {
+   position: absolute;
+   content: "";
+   width: 30px;
+   height: 4px;
+   border-radius: 3px;
+   color: #e1b838;
+   background: #e1b838;
+   top: 55px;
+   left: 34%;
+}
+
+.logoTitile h2:before {
+   position: absolute;
+   content: "";
+   color: #e1b838;
+   background: #e1b838;
+   right: 452px;
+   bottom: 52px;
+   width: 30px;
+   height: 4px;
+   border-radius: 4px;
+}
+
+.open {
+   text-align: center;
+   border: 3px solid #efb921;
+}
+
+.open h2 {
+   color: black;
+   background: #efb921;
+   text-transform: uppercase;
+   font-weight: 900;
+   font-size: 34px;
+   padding: 10px 0px;
+}
+
+.open span {
+   color: white;
+   font-size: 28px;
+   font-weight: bold;
+   line-height: 60px;
+}
+.homeAbout a {
+   color: white;
+   font-size: 33px;
+}
+
+.blogSite a {
+   font-size: 33px;
+   color: white;
+}
+h2.Madison_Street {
+   font-size: 40px;
+   color: white;
+}
+
+footer.bottom {
+   padding: 40px 0px;
+}
+
+.socailLink a {
+   width: 35px;
+   background: #efb921;
+   height: 35px;
+   display: block;
+   float: left;
+   text-decoration: none;
+   margin: 0px 8px;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   border-radius: 5px;
+   font-size: 25px;
+   color: black;
+}
+.socailLink a:last-child{
+   background: none;
+   font-size: 35px;
+   color: #efb921;
+}
+.jazz-food {
+   text-align: center;
+}
+
+.method-img {
+   text-align: center;
+}
+.specail-img {
+   text-align: center;
+}
+.top{
+   position: fixed;
+   right: 20px;
+   bottom: 30px;
+   font-size: 25px;
+   color:#fff;
+   display: none;
+   z-index: 999;
+   text-decoration: none;
+}
+/* responsive */
+
+@media (max-width: 1920px){
+  .owl-dots {
+      top: 93%;
+      right: 47%;
+  }
+   .logoTitile h2:before {
+      right: 736px;
+  }
+  
+  .logoTitile h2:after {
+      left: 742px;
+  }
+}
+@media (max-width: 1680px){
+   .owl-dots {
+      top: 92%;
+  }
+  
+  .logoTitile h2:before {
+      right: 616px;
+  }
+  
+  .logoTitile h2:after {
+      left: 618px;
+  }
+}
+@media (max-width: 1440px){
+   .owl-dots {
+      top: 90%;
+  }
+  
+  .logoTitile h2:before {
+      right: 498px;
+  }
+  
+  .logoTitile h2:after {
+      left: 498px;
+  }
+}
+@media (max-width:1366px){
+   .logoTitile h2:before {
+      right: 464px;
+  }
+  
+  .logoTitile h2:after {
+      left: 464px;
+  }
+}
+@media (max-width:1280px){
+   .owl-dots {
+      top: 89%;
+  }
+  
+  .logoTitile h2:before {
+      right: 420px;
+  }
+  
+  .logoTitile h2:after {
+      left: 420px;
+  }
+  .beefPlate-fork {
+   bottom: 700px;
+}
+}
+@media (max-width:1200px){ 
+   nav ul li a {
+      padding: 0px 24px !important;
+   }
+   .owl-dots {
+      right: 46%;
+  }
+  
+  .logoTitile h2:before {
+      right: 382px;
+  }
+  
+  .logoTitile h2:after {
+      left: 382px;
+  }
+}
+@media (max-width:1112px){ 
+   .beefPlate-fork {
+      bottom: 620px;
+   }
+   nav ul li a {
+      font-size: 30px;
+   }
+   .owl-dots {
+      top: 87%;
+   }
+   .beeflistWWrapper {
+      margin-top: 24px;
+   }
+   .beefPlate-fork-description {
+      top: 650px;
+      right: 10px;
+   }
+   .open span {
+      font-size: 26px;
+   }
+   .jazzMusic-heading h2 {
+      font-size: 50px;
+   }
+   .jazzMusic-heading span {
+      font-size: 50px;
+   }
+   .jazzMusic-heading h1 {
+      font-size: 50px;
+   }
+   h2.Madison_Street {
+      font-size: 35px;
+   }
+   .specail-ditails p {
+      font-size: 23px;
+   }
+   .beefPlate-fork-description h2 {
+      font-size: 50px;
+   }
+   .beefPlate-fork-description p {
+      font-size: 32px;
+   }
+   .jazz-music-details p {
+      font-size: 35px;
+   }
+   .logoTitile h2:before {
+      right: 338px;
+  }
+  
+  .logoTitile h2:after {
+      left: 338px;
+  }
+   .foodlistWWrapper {
+      margin-top: -6px;
+   }
+}
+@media(max-width:1024px){
+   
+.foodlistWWrapper {
+   margin-top: -6px;
+   }
+   nav ul li a {
+      font-size: 28px;
+      padding: 0px 21px !important;
+   }
+   nav {
+      margin-top: 80px;
+   }
+   .owl-dots {
+      top: 86%;
+      right: 45%;
+   }
+   h3.foodname {
+      font-size: 18px;
+      width: 200px;
+   }
+   span.food-price {
+      font-size: 18px;
+   }
+   
+   .beeflistWWrapper {
+      margin-top: 32px;
+   }
+   .porklistWWrapper {
+      margin-top: -1px;
+   }  
+   .discount-text h2 {
+      font-size: 46px;
+   }
+   .discount-bottom h2 {
+      font-size: 30px;
+      margin-top: 15px;
+   }
+   .specail-heading h2 {
+      font-size: 35px;
+   }
+   .beefPlate-fork {
+      bottom: 520px;
+   }
+   .beefPlate-fork-description h2 {
+      font-size: 45px;
+   }
+   .beefPlate-fork-description p {
+      font-size: 28px;
+   }
+   .logoTitile h2::before {
+      right: 295px;
+   }
+   .logoTitile h2::after {
+      left: 295px;
+   }
+   .open span {
+      font-size: 22px;
+   }
+   .homeAbout a {
+      font-size: 26px;
+   }
+   .blogSite a {
+      font-size: 26px;
+   }
+   h2.Madison_Street {
+      font-size: 30px;
+   }
+   
+   .socailLink a:last-child {
+      font-size: 28px;
+   }
+}
+@media(max-width:991px){
+   nav ul li a {
+      font-size: 26px;
+    }
+    .specail-heading h2 {
+      font-size: 30px;
+    }
+    .specail-heading h3 {
+      font-size: 30px;
+      padding: 30px 0px;
+    }
+    .specail-ditails p {
+      font-size: 20px;
+    }
+    .beefPlate-fork {
+      bottom: 489px;
+    }
+    .beefPlate-fork-description h2 {
+      font-size: 30px;
+    }
+    .beefPlate-fork-description p {
+      font-size: 20px;
+      line-height: 24px;
+    }
+    .beefPlate-fork-description {
+      top: 700px;
+      right: 20px;
+    }
+    .jazzMusic-heading h1 {
+      font-size: 35px;
+    }
+    .jazzMusic-heading h2 {
+      font-size: 35px;
+    }
+    .jazzMusic-heading span {
+      font-size: 35px;
+    }
+    .jazz-music-details p {
+      font-size: 25px;
+    }
+    .logoTitile h2::before {
+      right: 280px;
+    }
+    .logoTitile h2::after {
+      left: 280px;
+    }
+}
+@media(max-width:900px){
+   nav ul li a {
+      padding: 0px 16px !important;
+   }
+   nav {
+      top: 5px;
+   }
+   .beeflistWWrapper {
+      margin-top: 27px;
+   }
+   .discount-text h2 {
+      font-size: 35px;
+   }
+   .discount-text button {
+      font-size: 20px;
+   }
+   .owl-theme .owl-dots .owl-dot span {
+      width: 15px;
+      height: 15px;
+   }
+   .discount-wrapper {
+      margin-top: 9px;
+   }
+   .beefPlate-fork {
+      bottom: 382px;
+   }
+   .beefPlate-fork-description {
+      top: 600px;
+   }
+   .logoTitile h2::before {
+      right: 224px;
+   }
+   .logoTitile h2::after {
+      left: 224px;
+   }
+   .homeAbout a {
+      font-size: 22px;
+   }
+   .blogSite a {
+      font-size: 22px;
+   }
+   .open h2 {
+      font-size: 25px;
+   }
+   .open span {
+      font-size: 19px;
+   }
+}
+@media(max-width:834px){   
+   nav ul li a {
+      font-size: 22px;
+   }
+   .logoTitile h2::before {
+      right: 200px;
+   }
+   .logoTitile h2::after {
+      left: 200px;
+   }
+}
+@media(max-width:810px){
+
+    nav ul li a {
+      font-size: 22px;
+    }
+    .logoTitile h2::before {
+      right: 200px;
+    }
+    .logoTitile h2::after {
+      left: 200px;
+    }
+    .owl-dots {
+      top: 84%;
+    }
+    .priceOne h2 {
+      font-size: 25px;
+    }
+    h3.foodname {
+      width: 170px;
+      font-size: 16px;
+    }
+    span.food-price {
+      font-size: 16px;
+    }
+    .beeflistWWrapper {
+      margin-top: 24px;
+    }
+    .discount-text h2 {
+      font-size: 28px;
+    }
+    .discount-text button {
+      font-size: 18px;
+    }
+    .discount-bottom img {
+      width: 170px;
+    }
+    .discount-bottom h2 {
+      font-size: 28px;
+    }
+    .specail-heading h2 {
+      font-size: 28px;
+    }
+    .specail-heading h3 {
+      font-size: 25px;
+      padding: 20px 0px !important;
+    }
+    .specail-ditails p {
+      font-size: 18px;
+    }
+    .beefPlate-fork {
+      bottom: 281px;
+    }
+    .beefPlate-fork-description {
+      top: 535px;
+    }
+    .jazzMusic-heading h1 {
+      font-size: 28px;
+    }
+    .jazzMusic-heading h2 {
+      font-size: 28px;
+    }
+    .jazzMusic-heading span {
+      font-size: 25px;
+    }
+    .jazz-music-details p {
+      font-size: 21px;
+    }
+    .logoTitile h2::before {
+      right: 182px;
+    }
+    .logoTitile h2::after {
+      left: 182px;
+    }
+    .open span {
+      font-size: 17px;
+      line-height: 30px;
+    }
+    .homeAbout a {
+      font-size: 18px;
+    }
+    .blogSite a {
+      font-size: 18px;
+    }
+    h2.Madison_Street {
+      font-size: 25px;
+    }
+    .socailLink a:last-child {
+      font-size: 25px;
+    }
+}
+@media(max-width:768px){
+   nav ul li a {
+      font-size: 20px;
+    }
+    .foodlistWWrapper {
+      margin-top: -3px;
+  }
+}
+@media(max-width:767px){
+   button.owl-prev {
+      left: 35%;
+    }
+    button.owl-next {
+      right: 35%;
+    }
+    .beeflistWWrapper {
+      margin-top: 22px;
+    }
+   .logoTitile h2 {
+   font-size: 40px;
+   }
+}
+@media(max-width:614px){   
+   .owl-dots {
+      top: 79%;
+      right: 43%;
+   }
+   h3.foodname {
+      width: 141px;
+      font-size: 13px;
+   }
+   span.food-price {
+      font-size: 13px;
+      line-height: 22px;
+   }
+   .beeflistWWrapper {
+      margin-top: 18px;
+   }
+   .specail-heading h2 {
+      font-size: 20px;
+   }
+   .specail-ditails p {
+      font-size: 14px;
+   }
+   .beefPlate-fork {
+      bottom: 228px;
+   }
+   
+   .priceOne h2 {
+      font-size: 20px;
+   }
+   .beefPlate-fork-description {
+      top: 400px;
+      width: 344px;
+   }
+   .beefPlate-fork-description h2 {
+      font-size: 20px;
+   }
+   .beefPlate-fork-description p {
+      font-size: 15px;
+   }
+   .jazzMusic-heading h1 {
+      font-size: 20px;
+   }
+   .jazz-music-details p {
+      font-size: 18px;
+   }
+   .logoTitile h2 {
+      font-size: 20px;
+   }
+   .logoTitile h2::before {
+      right: 195px;
+      width: 20px;
+      top: 38px;
+   }
+   .logoTitile h2::after {
+      left: 195px;
+      width: 20px;
+      top: 38px;
+   }
+   .open h2 {
+      font-size: 20px;
+   }
+   .open span {
+      font-size: 13px;
+   }
+   .homeAbout a {
+      font-size: 14px;
+   }
+   .blogSite a {
+      font-size: 14px;
+   }
+   h2.Madison_Street {
+      font-size: 20px;
+   }
+   .socailLink a:last-child {
+      font-size: 12px;
+      margin-top: 19px;
+   }
+   .priceTwo h2 {
+      font-size: 20px;
+    }
+}
+@media(max-width:600px){
+
+   h3.foodname {
+      font-size: 10px;
+      width: 120px;
+    }
+    span.food-price {
+      font-size: 10px;
+      line-height: 18px;
+    }
+    .discount-text h2 {
+      font-size: 20px;
+      line-height: 32px;
+    }
+    .discount-text button {
+      font-size: 15px;
+      padding: 5px 20px;
+    }
+    .discount-bottom h2 {
+      font-size: 20px;
+    }
+    .beefPlate-fork-description {
+      right: 0;
+    }
+    .socailLink a {
+      font-size: 20px;
+    }
+    .socailLink a {
+      width: 28px;
+      height: 28px;
+    }
+}
+@media(max-width:480px){
+   nav {
+      margin-top: 37px;
+   }
+   button.owl-prev {
+      top: -5px;
+      left: 0px;
+   }
+   button.owl-next {
+      top: -5px;
+      right: 0px;
+   }
+   .priceOne h2 {
+      font-size: 25px;
+      text-align: center;
+   }
+   h3.foodname {
+      font-size: 20px;
+      width: 300px;
+   }
+   span.food-price {
+      font-size: 20px;
+      line-height: 31px;
+   }
+   .priceTwo h2 {
+      font-size: 25px;
+      text-align: center;
+   }
+   .specail-heading h2 {
+      font-size: 15px;
+   }
+   .specail-heading h3 {
+      font-size: 18px;
+      padding: 15px 0px !important;
+   }
+   .specail-ditails p {
+      font-size: 13px;
+   }
+   .beefPlate-fork {
+      bottom: 173px;
+   }
+   .beefPlate-fork-description {
+      top: 295px;
+      width: 300px;
+   }
+   .logoTitile h2::before {
+      display: none;
+   }
+   .logoTitile h2::after {
+      display: none;
+   }
+   .open h2 {
+      font-size: 25px;
+   }
+   .open span {
+      font-size: 33px;
+      font-weight: 500;
+      line-height: 51px;
+   }
+   .homeAbout a {
+      font-size: 20px;
+   }
+   .blogSite a {
+      font-size: 20px;
+   }
+   h2.Madison_Street {
+      font-size: 16px;
+      font-weight: 900;
+   }
+   .socailLink a {
+      width: 20px;
+      height: 20px;
+      font-size: 14px;
+   }
+   .socailLink a:last-child {
+      font-size: 11px;
+      margin-top: 3px;
+   }
+   div#method {
+      margin-top: 80px;
+   }
+   .top-description {
+      top: 20px;
+   }
+   .beefPlate-fork-description {
+      top: 240px;
+   }
+   .open span {
+      font-size: 29px;
+   }
+   .logoTitile {
+      margin-top: 60px;
+   }
+   .socailLink a {
+      width: 15px;
+      height: 15px;
+      font-size: 10px;
+   }
+   .socailLink a:last-child {
+      margin-top: 0px;
+      margin-left: 0px;
+   }
+   h2.Madison_Street {
+      font-size: 15px;
+      font-weight: 400;
+   }
+
+}
+@media(max-width:412px){
+   div#method {
+      margin-top: 80px;
+   }
+   .top-description {
+      top: 20px;
+   }
+   .beefPlate-fork-description {
+      top: 240px;
+   }
+   .open span {
+      font-size: 29px;
+   }
+   .logoTitile {
+      margin-top: 60px;
+   }
+   .socailLink a {
+      width: 15px;
+      height: 15px;
+      font-size: 10px;
+   }
+   .socailLink a:last-child {
+      margin-top: 0px;
+      margin-left: 0px;
+   }
+   h2.Madison_Street {
+      font-size: 15px;
+      font-weight: 400;
+   }
+   .discount-text h2 {
+      font-size: 16px;
+      line-height: 22px;
+   }
+   .discount-text button {
+      padding: 5px 10px;
+   }
+   .discount-bottom {
+      margin-top: 15px;
+      float: right;
+   }
+}
+@media(max-width:375px){   
+   i.fas.fa-bars {
+      font-size: 20px;
+   }
+   .MenuTitle h1 {
+      font-size: 45px;
+    }
+   h3.foodname {
+      width: 250px;
+   }
+   .specail-heading h2 {
+      font-size: 12px;
+   }
+   .specail-heading h3 {
+      font-size: 15px;
+      padding: 10px 0px !important;
+   }
+   .specail-ditails p {
+      font-size: 12px;
+      line-height: 13px;
+   }
+   .beefPlate-fork {
+      bottom: 140px;
+   }
+   .beefPlate-fork-description {
+      width: 220px;
+      top: 240px;
+   }
+   .beefPlate-fork-description p {
+      font-size: 13px;
+      line-height: 17px;
+      padding: 0px;
+   }
+   .jazzMusic-heading h2 {
+      font-size: 20px;
+   }
+   .jazzMusic-heading span {
+      font-size: 16px;
+   }
+   .jazz-music-details p {
+      font-size: 15px;
+   }
+   .open span {
+      font-size: 25px;
+   }
+   h2.Madison_Street {
+      font-size: 12px;
+   }
+   .socailLink a {
+      margin: 0px 3px;
+   }
+}
